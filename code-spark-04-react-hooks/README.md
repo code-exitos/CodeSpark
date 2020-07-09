@@ -1,3 +1,10 @@
+# react-hooks-demo
+git clone https://github.com/afloresmorales/react-hooks-demo
+cd react-hooks-demo
+Run npm i
+npm start
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
