@@ -1,5 +1,5 @@
 import { cleanup, render, screen } from './test.utils';
-import Todo from '../componets/ToDo/Todo';
+import Todo from '../Components/ToDo/Todo';
 
 const todo = {
   text: 'Obtencion de datos',

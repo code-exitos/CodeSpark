@@ -2,8 +2,8 @@ import moment from 'moment';
 import React from 'react';
 import { useSelector } from 'react-redux';
 import './App.css';
-import Todo from './componets/ToDo/Todo';
-import TodoForm from './componets/ToDoForm/TodoForm';
+import Todo from './Components/ToDo/Todo';
+import TodoForm from './Components/ToDoForm/TodoForm';
 
 function App() {
   const todos = useSelector((state) => state.todos.todos);

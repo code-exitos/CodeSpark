@@ -1,5 +1,5 @@
 import { cleanup, render, screen, fireEvent } from './test.utils';
-import TodoForm from '../componets/ToDoForm/TodoForm';
+import TodoForm from '../Components/ToDoForm/TodoForm';
 import { ADD_TODO } from '../redux/actionTypes';
 import { addTodo } from '../redux/actions/todo.actions';
 import todosReducer from '../redux/reducers/todos.reducer';
@@ -26,17 +26,6 @@ describe('<Todo Form />', () => {
     expect(input).toHaveValue(expectedValue);
   });
 
-  // it('should add new todo to the list', () => {
-  //   const form = screen.getByTestId('input-form');
-  //   expect(form).toBeInTheDocument();
-
-  //   const input = screen.getByTestId('input-form');
-  //   fireEvent.change(input, { target: { value: 'hola mundo' } });
-
-  //   fireEvent.submit(form);
-  //   expect(mockAddTodo).toBeCalled();
-  //   expect(mockAddTodo).toBeCalledWith('hola mundo');
-  // });
 });
 
 describe('<Todo Form /> Redux test', () => {
