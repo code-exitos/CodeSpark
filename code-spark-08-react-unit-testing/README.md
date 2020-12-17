@@ -1,8 +1,12 @@
 # react-unit-testing-demo
 git clone https://github.com/code-exitos/CodeSpark
+
 cd code-spark-08-react-unit-testing
+
 Run npm i
+
 npm start
+
 npm test 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
